@@ -5,6 +5,8 @@ from sqlalchemy.orm import Session
 from models import Product, SessionLocal
 import asyncio
 import sys
+import os
+os.system("playwright install")
 
 if sys.platform == "win32":
     asyncio.set_event_loop_policy(asyncio.WindowsProactorEventLoopPolicy())
