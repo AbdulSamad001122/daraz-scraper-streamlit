@@ -9,3 +9,5 @@ libxkbcommon0
 libgbm1
 libpango-1.0-0
 libcairo2
+libxfixes3
+libasound2
